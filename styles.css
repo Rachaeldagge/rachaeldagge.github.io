@@ -41,18 +41,22 @@ background-color: #B0E0E6;
 float: right;
 nav.brand - logo {
 }
+
 nav.right {
 }
+
 nav ul a{
 color: black;
 font - size:20px;
 }
 }
+
 a {
 color: #fff;
 text-decoration: none;
 padding: 5px;
 }
+
 a:hover {
 color: #fda103;
 border-bottom: 2px solid #fda103;
@@ -70,17 +74,14 @@ display: flex;
 }
 #image1 {
 border: 3px solid #B0E0E6;
+padding: 40px;
+margin: 30px;
 }
-footer {
-text-align: center;
-background-color:#B0E0E6;
-padding: 10px;
-color: #fff;
-}
-/* Your code here */
+
 nav a {
 display: block;
 }
+
 nav {
 width: 700px; 
 }
