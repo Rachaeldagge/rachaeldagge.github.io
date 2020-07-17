@@ -31,7 +31,7 @@ text-align: center;
 }
 
 h2 {
-font-size: 2rem;
+font-size: 2.5rem;
 line-height: 3rem;
 color: #fff;
 }
@@ -46,7 +46,10 @@ h4 {
     font-size: 15px;
     line-height: 2rem;
     color: #fff; 
+    font-family: sans-serif; 
+
 }
+
 
 nav {
 margin: 20px;
@@ -63,10 +66,6 @@ nav ul a{
 color: black;
 font - size:20px;
 }
-}
-
-.nav1 {
-    align-items: center;
 }
 
 a {
@@ -105,13 +104,7 @@ display: flex;
 border: 3px solid #B0E0E6;
 padding: 40px;
 margin: 30px;
-}
-
-#image2 {
-    width: 40px;
-    height: 40px;
-    padding: 20px;
-
+display: inline-flex;
 }
 
 #image3 {
@@ -136,4 +129,13 @@ html {
 font-family: 'Raleway', sans-serif;
 }
 
-
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+   
