@@ -51,7 +51,7 @@ h4 {
 
 nav {
 margin: 20px;
-padding - top: 4px;
+padding-top: 4px;
 background-color: #B0E0E6;
 float: right;
 nav.brand - logo {
@@ -62,9 +62,9 @@ nav.right {
 
 nav ul a{
 color: black;
-font - size:20px;
+font-size:20px;
 }
-}
+
 
 .nav1 {
     align-items: center;
