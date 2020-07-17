@@ -4,6 +4,8 @@
 html {
 font-family: 'Ubuntu Condensed','Raleway';
 background-image: url(images/image2);
+min-height: 100vh;
+height: 100%;
 }
 
 body {
@@ -29,9 +31,21 @@ text-align: center;
 }
 
 h2 {
-font-size: 3rem;
+font-size: 2rem;
 line-height: 3rem;
 color: #fff;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 3rem;
+    color: #fff;
+}
+
+h4 {
+    font-size: 15px;
+    line-height: 2rem;
+    color: #fff; 
 }
 
 nav {
@@ -51,6 +65,10 @@ font - size:20px;
 }
 }
 
+.nav1 {
+    align-items: center;
+}
+
 a {
 color: #fff;
 text-decoration: none;
@@ -65,6 +83,16 @@ border-bottom: 2px solid #fda103;
 div {
 padding: 10px;
 }
+
+
+footer {
+    margin: 2px;
+    padding - top: 4px;
+    background-color: #ffffff;
+    float: right;
+    {
+
+
 img {
 width: 300px;
 height: 40vh;
@@ -72,31 +100,38 @@ object-fit: cover;
 object-position: center;
 display: flex;
 }
+
 #image1 {
 border: 3px solid #B0E0E6;
 padding: 40px;
 margin: 30px;
 }
 
-nav a {
-display: block;
+#image2 {
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+
 }
 
-nav {
-width: 700px; 
+#image3 {
+    width: 20px;
+    height: 20px;
 }
+
+
 header {
 margin: 20px;
 padding: 20px;
 }
-h1 {
-color: RGB(255, 0, 255)
+
 }
 header {
 background-color: #708090; font-family: Ubuntu Condensed; font-size: 20px;
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap)
 @import url(https://fonts.google.com/specimen/Ubuntu+Condensed?sidebar.open&selection.family=Raleway:wght@100|Ubuntu+Condensed&preview.text=Rachael+Dagge&preview.text_type=custom#standard-styles)
 }
+
 html {
 font-family: 'Raleway', sans-serif;
 }
