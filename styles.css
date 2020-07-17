@@ -136,14 +136,12 @@ font-family: 'Raleway', sans-serif;
 }
 
 
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-}
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
 }
 
+@-ms-viewport {
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
